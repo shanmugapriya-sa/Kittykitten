@@ -1,0 +1,192 @@
+
+body{
+    font-family: 'Calistoga',cursive;
+    text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Calistoga', cursive;
+   
+}
+p{
+    color: gray;
+}
+/* Sections */
+.Colored-section{
+    background-color: #B1B2FF;
+    color: white;
+
+}
+.white-section{
+    background-color: white;
+    color: black;
+
+}
+
+/* Navigation bar */
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.navbar-brand{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: left;
+  justify-content: left;
+}
+.nav-item{
+    padding:0 16px ;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-bottom: 20px;
+
+}
+
+/* Title */
+#title{
+   
+    text-align: left;
+  }
+.container-fluid{
+    padding: 7% 15%;
+   }
+.big-heading{
+    font-size: 3rem;
+    line-height: 1.5;   
+    margin-bottom: 20px;
+}
+/* Title image */
+.Titleimage1{
+    width: 30%;
+    height :300px;
+    padding-top: 30px;
+    margin-right: 20px;
+   
+}
+.Titleimage2{
+    width: 60%;
+    height :300px;
+    padding-top: 30px;
+    position: relative;
+    left: 15px;
+   
+}
+
+/* Buttons */
+.download button{
+    margin: 5% 3% 5% 0;
+}
+.btn{
+    margin-right: 30px;
+    
+}
+
+/* Features */
+#features{
+    padding: 7% 15%;
+}
+.feature-box{
+  
+   padding: 5%;
+
+}
+.icon{
+   color: #E5E0FF;
+   margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #B1B2FF ;
+}
+.feature-text{
+    font-size: 1.5rem;
+
+}
+
+/* Testimonials */
+#testimonials{  
+  background-color: #E5E0FF;
+  
+}
+.testimonial-image{
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.testimonial-text{
+    font-size: 2.5rem;
+    line-height: 1.5;
+
+}
+
+/* Press */
+#press{
+    background-color: #E5E0FF;
+    padding-bottom: 3%;
+}
+.press-image{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing */
+#pricing{
+  padding: 100px; 
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+.pricing-heading{
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+.card-text{
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+.card-breed{
+    font-size: 1.5rem;
+}
+
+/* Call to Action */
+#cta{
+  
+   font-family: 'Source Sans Pro', sans-serif;
+   padding: 10% 15%;
+  
+   line-height: 1.5;
+  
+}
+.calltoaction{
+    padding-bottom: 20px;
+    font-size: 3.5rem;
+}
+
+/* Footer */
+#footer{
+   
+    padding: 7% 15%;
+}
+.Foot{
+    color: gray;
+}
+.logo{
+   padding-left: 15px;
+   padding-bottom: 20px;
+}
+
+
+@media(max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .btn{
+        margin-bottom: 10px ;
+        text-align: center;
+       
+    } 
+}
